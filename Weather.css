@@ -1,0 +1,49 @@
+body {
+    background-image: url(" weather.jpg");
+    background-size: cover;
+
+}
+
+.input {
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#inputvalue {
+    width: 550px;
+    height: 35px;
+    border: 1px solid rgb(6, 122, 122);
+
+}
+
+#btn {
+    width: 70px;
+    height: 39px;
+    border: 1px solid rgb(6, 122, 122);
+
+}
+
+.display {
+
+    height: 300px;
+    background-color: rgba(175, 194, 194, 0.603);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.city_name {
+    color: rgb(129, 9, 9);
+    font-size: 50px;
+}
+
+p{
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
