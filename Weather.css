@@ -1,11 +1,13 @@
 body {
     background-image: url(" weather.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
 
 }
 
 .input {
-
     text-align: center;
     justify-content: center;
     margin-top: 150px;
@@ -15,6 +17,7 @@ body {
     width: 550px;
     height: 35px;
     border: 1px solid rgb(6, 122, 122);
+    border-radius: 10px;
 
 }
 
@@ -22,6 +25,8 @@ body {
     width: 70px;
     height: 39px;
     border: 1px solid rgb(6, 122, 122);
+    border-radius: 10px;
+
 
 }
 
@@ -45,5 +50,20 @@ p{
 
     color: rgb(0, 0, 0);
     font-weight: bold;
+
+}
+
+@media (max-width:450px) {
+    
+
+#inputvalue {
+    width: 70%;
+  
+}
+.display {
+  width: 80%;
+  margin:auto
+
+}
 
 }
